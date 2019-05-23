@@ -1,0 +1,191 @@
+.header 
+{
+  width: 100%;
+  height: 10%;
+  background-color: #59565e; 
+  padding: 40px;
+  position: relative;
+  }
+  ul
+{
+  list-style-type: none;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  }
+  li
+{
+  float: left;
+}
+  li a, .dropbtn
+{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn
+{background-color: #0d17a8;
+}
+li.dropdowm
+{
+  display: inline-block;
+}
+.dropdown-content
+{
+   display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a
+{
+   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover
+{
+  background-color: #4286f4;
+}
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+nav ul
+{
+  background-color: #cccccc;
+}
+
+.first
+{
+  width: 100%;
+  height: 100%;
+  margin: none;
+  text-align: center;
+}
+.first img
+{
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+}
+.second
+{
+  width: 100%
+  height: 10%;
+  padding:5%;
+  background-color: lightgrey;
+  color: white;
+  text-align: Center;
+}
+.second p
+{
+ font-size: 20px 
+}
+.third
+{
+  width: 100%;
+  height: 10%;
+  background-color: darkgrey;
+  color: white;
+  padding:5%;
+  text-align: center;
+}
+.third h2
+{
+  color: black;
+}
+.third ins
+{
+  color: black;
+}
+.inthird
+{
+  box-sizing: content-box;  
+  width: 500px;
+  height: 100px; 
+  border: 4px dashed grey;
+  background-color: lightgrey;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+.inthird p
+{
+  float: left
+}
+.name
+{
+  box-sizing: content-box;
+  width:100px;
+  height: 50px;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+.names
+{
+  box-sizing: content-box;
+  width:100px;
+  height: 50px;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+.inames
+{
+  box-sizing: content-box;
+  width:100px;
+  height: 50px;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+.fourth
+{
+  background: linear-gradient(black, grey);
+  text-align: right;
+  color: black;
+  background-image: url("cross-10.jpg");
+  background-repeat: no-repeat;
+}
+ .fourth img
+ {
+  width: 100%;
+  height: 100%;
+}
+
+.infourth
+{
+  font-family: Palatino, serif;
+  font-size: 90px;
+}
+.fifth
+{
+  background: linear-gradient(#331100, #ba1d57); 
+  background: -moz-linear-gradient(#331100, #ba1d57); 
+  background: -webkit-linear-gradient(#331100, #ba1d57); 
+  background: -ms-linear-gradient(#331100, #ba1d57); 
+  background: -o-linear-gradient(#331100, #ba1d57);     
+  text-align: center;
+  color: white;
+}
+.foot1
+{
+  text-align: center;
+  background: linear-gradient(#6e1dba, #1d2aba);
+  background: -moz-linear-gradient(#6e1dba, #1d2aba);
+  background: -webkit-linear-gradient(#6e1dba, #1d2aba);
+  background: -ms-linear-gradient(#6e1dba, #1d2aba);
+  background: -o-linear-gradient(#6e1dba, #1d2aba);
+  font-size: 5;
+  color: white;
+  font-weight: normal; 
+  padding: 0 15px;
+  float: right;
+  width: 100%
+}
