@@ -75,10 +75,7 @@ nav ul
 }
 .first img
 {
-  width: 100%;
-  height: 100%;
   background-size: contain;
-
 }
 .second
 {
@@ -87,7 +84,7 @@ nav ul
   padding:5%;
   background-color: lightgrey;
   color: white;
-  text-align: Center;
+  text-align: center;
 }
 .second p
 {
@@ -123,7 +120,13 @@ nav ul
 }
 .inthird p
 {
-  float: left
+  float: left;
+  overflow: hidden;
+}
+.inthird p:hover
+{
+  transition:width 2s linear 1s;
+  background-color: black;
 }
 .name
 {
@@ -170,13 +173,43 @@ nav ul
 }
 .fifth
 {
-  background: linear-gradient(#331100, #ba1d57); 
-  background: -moz-linear-gradient(#331100, #ba1d57); 
-  background: -webkit-linear-gradient(#331100, #ba1d57); 
-  background: -ms-linear-gradient(#331100, #ba1d57); 
-  background: -o-linear-gradient(#331100, #ba1d57);     
+  background: linear-gradient(#11e3ff, #050516); 
+  background: -moz-linear-gradient(#11e3ff, #050516); 
+  background: -webkit-linear-gradient(#11e3ff, #050516); 
+  background: -ms-linear-gradient(#11e3ff, #050516); 
+  background: -o-linear-gradient(#11e3ff, #050516);     
   text-align: center;
   color: white;
+  width: 100%
+}
+.sixth table, th, td
+{
+  padding: 10px 0px;
+  text-align: center;
+  color: white;
+  border: 1px solid black;
+}
+.sixth tr:hover
+{
+  background-color: #4286f4;
+}
+.sixth
+{
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: linear-gradient(#3387A2, #325Fa1);
+  background: -moz-linear-gradient(#3387A2, #325Fa1);
+  background: -webkit-linear-gradient(#3387A2, #325Fa1);
+  background: -ms-linear-gradient(#3387A2, #325Fa1);
+  background: -o-linear-gradient(#3387A2, #325Fa1);
+  margin: 30px;
+}
+th
+{
+  height: 50px;
+  text-align: center;
 }
 .foot1
 {
@@ -189,7 +222,9 @@ nav ul
   font-size: 5;
   color: white;
   font-weight: normal; 
-  padding: 0 15px;
+  padding: 10px 20px;
   float: right;
-  width: 100%
+  width: 100%;
+  height: 100%; 
+  margin: 30px;
 }
